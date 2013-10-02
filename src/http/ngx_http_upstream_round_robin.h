@@ -30,6 +30,10 @@ typedef struct {
     ngx_uint_t                      max_fails;
     time_t                          fail_timeout;
 
+#if (NGX_UPSTREAM_CHECK_MODULE)
+    ngx_uint_t                      check_index;
+#endif
+
     ngx_uint_t                      down;          /* unsigned  down:1; */
 
 #if (NGX_HTTP_SSL)
