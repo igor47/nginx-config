@@ -1,0 +1,3 @@
+[submodule "ext/lua-nginx-module"]
+	path = ext/lua-nginx-module
+	url = git://github.com/chaoslawful/lua-nginx-module
