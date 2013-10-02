@@ -1,0 +1,12 @@
+debian/conf/* etc/nginx/
+html/* usr/share/nginx/html/
+objs/nginx usr/sbin/
+ext/passenger/bin/* usr/bin/
+ext/passenger/helper-scripts/*  usr/lib/phusion-passenger/helper-scripts/
+ext/passenger/resources/* usr/share/phusion-passenger/
+ext/passenger/lib/* usr/lib/ruby/1.8/
+ext/passenger/buildout/ruby/ruby-1.8*/passenger_native_support.so usr/lib/ruby/1.8/x86_64-linux/
+ext/passenger/buildout/agents/PassengerHelperAgent  usr/lib/phusion-passenger/buildout/agents/
+ext/passenger/buildout/agents/PassengerLoggingAgent usr/lib/phusion-passenger/buildout/agents/
+ext/passenger/buildout/agents/PassengerWatchdog     usr/lib/phusion-passenger/buildout/agents/
+ext/passenger/buildout/agents/SpawnPreparer         usr/lib/phusion-passenger/buildout/agents/
