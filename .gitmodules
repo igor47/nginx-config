@@ -1,3 +1,6 @@
 [submodule "ext/lua-nginx-module"]
 	path = ext/lua-nginx-module
 	url = git://github.com/chaoslawful/lua-nginx-module
+[submodule "ext/ngx_devel_kit"]
+	path = ext/ngx_devel_kit
+	url = git://github.com/simpl/ngx_devel_kit
