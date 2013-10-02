@@ -4,3 +4,6 @@
 [submodule "ext/ngx_devel_kit"]
 	path = ext/ngx_devel_kit
 	url = git://github.com/simpl/ngx_devel_kit
+[submodule "ext/passenger"]
+	path = ext/passenger
+	url = git://github.com/phusion/passenger
